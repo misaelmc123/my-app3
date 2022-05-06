@@ -17,6 +17,11 @@ import { AppProductAlertsComponent } from './app-product-alerts/app-product-aler
     AppProductListComponent,
     AppProductAlertsComponent,
   ],
-  bootstrap: [AppComponent],
+  bootstrap: [
+    AppComponent,
+    AppTopBarComponent,
+    AppProductListComponent,
+    AppProductAlertsComponent,
+  ],
 })
 export class AppModule {}
